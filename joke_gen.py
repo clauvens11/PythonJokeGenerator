@@ -40,4 +40,3 @@ if user_input2 == yes:
   print(random.choice(jokes))
 elif user_input2 == no:
   print(noanswer)
-  sys.exit()
