@@ -37,7 +37,7 @@ elif user_input1 == no:
 user_input2 = input("wanna hear another joke? y/n")
 
 if user_input2 == yes:
-  print(randomjoke)
+  print(random.choice(jokes))
 elif user_input2 == no:
   print(noanswer)
   sys.exit()
